@@ -1,32 +1,23 @@
 = authlogic_pam
 
-* FIX (url)
+http://github.com/nbudin/authlogic_pam
 
 == DESCRIPTION:
 
-FIX (describe your package)
-
-== FEATURES/PROBLEMS:
-
-* FIX (list of features or problems)
-
-== SYNOPSIS:
-
-  FIX (code sample of usage)
+PAM support for Authlogic via the rpam package
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* A system supporting PAM (Linux only, AFAIK)
+* rpam >= 1.0.1
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install nbudin-authlogic_pam
 
 == LICENSE:
 
-(The MIT License)
-
-Copyright (c) 2009 FIX
+Copyright (c) 2009 Nat Budin
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
