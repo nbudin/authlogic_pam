@@ -4,7 +4,8 @@ http://github.com/nbudin/authlogic_pam
 
 == DESCRIPTION:
 
-PAM support for Authlogic via the rpam package
+Really simple PAM support for Authlogic via the rpam package.  Code heavily 
+based on authlogic_ldap and authlogic_openid.
 
 == REQUIREMENTS:
 
