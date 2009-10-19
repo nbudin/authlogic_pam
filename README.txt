@@ -14,7 +14,7 @@ based on authlogic_ldap and authlogic_openid.
 
 == INSTALL:
 
-* sudo gem install nbudin-authlogic_pam
+* sudo gem install authlogic_pam -s http://gemcutter.org
 
 == LICENSE:
 
