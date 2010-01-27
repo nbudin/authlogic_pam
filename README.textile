@@ -14,12 +14,12 @@ authlogic_pam requires the following to be installed on your server:
 
 h2. Setup
 
-* sudo gem install authlogic rpam authlogic_pam
-* In your authlogic-using application, add the following line to config/environment.rb (or wherever you are storing gem dependencies):
-** config.gem 'authlogic_pam'
-* Ensure that your User model contains a string field called "pam_login". The basic authlogic "login", "crypted_password" and "password_salt" fields are unnecessary for PAM (although you may wish to keep them if you have non-PAM users as well).
-* Create Users for each user you'd like to grant PAM access.  Make sure the "pam_login" field is exactly the same as their PAM username.
-* In your login form views, add fields for "pam_login" and "pam_password". Also make sure to use references to these fields (rather than "login" and "password") elsewhere in your views, where appropriate.
+# sudo gem install authlogic rpam authlogic_pam
+# In your authlogic-using application, add the following line to config/environment.rb (or wherever you are storing gem dependencies):
+#* config.gem 'authlogic_pam'
+# Ensure that your User model contains a string field called "pam_login". The basic authlogic "login", "crypted_password" and "password_salt" fields are unnecessary for PAM (although you may wish to keep them if you have non-PAM users as well).
+# Create Users for each user you'd like to grant PAM access.  Make sure the "pam_login" field is exactly the same as their PAM username.
+# In your login form views, add fields for "pam_login" and "pam_password". Also make sure to use references to these fields (rather than "login" and "password") elsewhere in your views, where appropriate.
 
 h2. Licensing information
 
