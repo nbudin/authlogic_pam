@@ -66,7 +66,7 @@ module AuthlogicPam
           self.attempted_record = klass.send(find_by_pam_login_method, pam_login)
           errors.add(:pam_login, I18n.t('error_messages.pam_login_not_found', :default => "does not exist")) if attempted_record.blank?
         else
-          errors.add_to_base("PAM authentication failed")
+          errors.add(:base, "PAM authentication failed")
         end
       end
     end
