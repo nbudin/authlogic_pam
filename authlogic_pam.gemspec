@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">=0") id s.respond_to? :required_rubygems_version=
   
   s.name = 'authlogic_pam'
-  s.version = 1.2.0
+  s.version = '1.2.0'
   s.date = '2011-06-12'
   
   s.summary = 'PAM authentication plugin for AuthLogic'
