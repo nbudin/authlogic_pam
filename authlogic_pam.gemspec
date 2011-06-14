@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.specification_version = 2 if s.respond_to? :specifcation_version=
-  s.required_rubygems_version = Gem::Requirement.new(">=0") id s.respond_to? :required_rubygems_version=
+  s.required_rubygems_version = Gem::Requirement.new(">=0") if s.respond_to? :required_rubygems_version=
   
   s.name = 'authlogic_pam'
   s.version = '1.2.0'
