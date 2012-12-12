@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.extra_rdoc_files = %w[README.md LICENSE]
   
-  s.add_dependency('authlogic', "~> 3.0.3")
+  s.add_dependency('authlogic', "~> 3.2.0")
   s.add_dependency('rpam-ruby19', "~> 1.1.0")
   
   s.add_development_dependency('rspec', '~> 2.6.0')
