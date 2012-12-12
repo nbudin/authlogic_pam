@@ -1,9 +1,0 @@
-.autotest
-History.txt
-Manifest.txt
-README.txt
-Rakefile
-lib/authlogic_pam.rb
-lib/authlogic_pam/acts_as_authentic.rb
-lib/authlogic_pam/session.rb
-test/test_authlogic_pam.rb

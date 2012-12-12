@@ -1,3 +1,4 @@
+require 'authlogic'
 require 'authlogic_pam/acts_as_authentic'
 require 'authlogic_pam/session'
 
